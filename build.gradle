@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+group = 'com.dfferentia'
+version = '0.1-SNAPSHOT'
+
+repositories {
+  mavenCentral()
+}
+dependencies {
+  compile ('junit:junit:4.11')
+  compile ('org.springframework:spring-test:4.0.3.RELEASE')
+}
